@@ -1,0 +1,266 @@
+body {
+	background: #ecf0f1;
+}
+
+
+.pdtb {
+	padding: 80px 0; 
+}
+.mrb {
+	margin-bottom: 40px;
+}
+.ctr {
+	text-align: center;
+}
+.bdr-l {
+	border-left: 1px #292929 solid;
+}
+.bdr-b {
+	border-bottom: 1px #292929 solid;
+}
+
+
+
+
+.navbar-default {
+	background: #fff;
+	border-radius: 0;
+	margin: 0;
+}
+
+
+
+#bg-intro {	
+	background-image: url(../img/bg.jpg);
+  	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px 0;
+	color: #fff;
+	width: 100%;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+
+}
+.intro {
+	margin-bottom: 60px;
+}
+.content {
+	background: #fff;
+	border-radius: 5px;
+	margin-top: -50px;
+	padding: 0 20px;	
+	overflow: hidden;
+}
+
+.section {
+	overflow: hidden;
+}
+.section > h2 {
+  color: #272727;
+  margin: 0 0 50px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 20px;
+}
+.section > h2:before {
+  content: "";
+  position: absolute;
+  width: 140px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -70px;
+  height: 1px;
+  background: #ebebeb;
+}
+.section > h2:after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  bottom: -11px;
+  left: 50%;
+  margin-left: -12px;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  background: #e74c3c;
+}
+
+.section > h2 a:hover {
+	color: #000;
+}
+
+.breadcrumb {
+	margin: 20px 0;
+	padding: 0 30px;
+}
+.breadcrumb > li a {
+	font-size: 0.8em;
+}
+.breadcrumb > li.active {
+	color: #000;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+
+.news-post {
+	border: 1px #eee solid;
+}
+
+
+.entry-post {
+	padding: 10px;
+}
+.entry-post .title-post {
+	font-size: 1.5em;
+	margin: 10px 0;
+}
+.date-post {
+	margin: 0;
+}
+.date-post a {
+	color: #2980b9; 
+	font-size: 0.9em;
+	font-weight: bold;
+}
+.date-post a:hover {
+	color: #3498db;
+}
+
+.footer-post {
+	border-top: 1px #eee solid;
+	padding: 10px; 
+}
+.footer-post span, .footer-post a {
+	font-size: 0.8em;
+}
+.footer-post a  {
+	color: #95a5a6;
+	margin: 0 10px;	
+}
+.footer-post a:hover {
+	color: #3498db;
+	text-decoration: underline;
+}
+
+
+.category-filter {
+	list-style: none;
+  	padding: 0;
+  	margin: 0 0 50px;
+  	display: inline-block;
+}
+.category-filter > li {
+	display: block;
+	float: left;  
+}
+.category-filter > li a {
+	display: block;
+  	padding: 7px 15px;
+  	background: #34495e;
+  	color: #fff;
+  	position: relative;
+}
+.category-filter > li a:hover, .category-filter > li a.active {
+	background: #1abc9c;
+  	color: #fff;
+  	box-shadow: 0 -3px 0 0 #16a085 inset;
+  	-webkit-box-shadow: 0 -3px 0 0 #16a085 inset;
+}
+.category-filter > li a.active:after {
+	content: " ";
+  	position: absolute;
+  	bottom: -17px;
+  	left: 50%;
+  	margin-left: -10px;
+  	border-width: 10px;
+  	border-style: solid;
+  	border-color: #16a085 transparent transparent transparent;
+}
+.category-filter > li:first-child a {
+	border-radius: 4px 0 0 4px;
+}
+.category-filter > li:last-child a {
+	border-radius: 0 4px 4px 0;
+}
+
+.product-items {
+
+}
+.product-items .product-item {
+	margin-bottom: 30px;
+	position: relative;
+}
+.product-items .product-item .product-prev {
+	opacity: 0;
+  	transition: opacity 400ms;
+  	-webkit-transition: opacity 400ms;
+  	position: absolute;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	padding: 10px;
+  	background: rgba(0, 0, 0, 0.5);
+  	color: #fff;
+}
+.product-items .product-item .product-prev p {
+	font-weight: bold;
+	margin: 5px 0;
+}
+.product-items .product-item .product-prev p a {
+	color: #fff;
+}
+.product-items .product-item:hover .product-prev {
+	opacity: 1;
+}
+
+.foot {
+	background: #2e2e2e;
+	border-radius: 0 0 5px 5px;
+	color: #95a5a6;
+	padding: 20px;
+}
+.about {
+	padding-bottom: 30px;
+}
+.about h3 {
+	color: #fff;
+	margin: 20px 0;
+}
+.about .thumb-gallery {
+	margin-bottom: 20px;
+}
+
+.info {
+	display: inline-block;
+	list-style-type: circle;
+	margin: 0;
+  	padding: 0;
+}
+.info > li {
+	display: block;
+	padding: 5px 0;
+	overflow: hidden;
+}
+.info > li span:first-child {
+	float: left;
+	width: 5%;
+}
+.info > li span:last-child {
+	float: left;
+	width: 80%;
+}
+
+.footer {
+	padding: 30px 0;
+}
+.copyright {
+	color: #95a5a6;
+	font-weight: bold;
+}
+.copyright a {
+	color: #16a085;
+}

@@ -1,0 +1,151 @@
+header {
+	position: relative;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+	line-height: 90px;
+	font-weight: 700;
+	margin: 0px;
+	padding-bottom: 8px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 38px;
+	padding-bottom: 0px;
+	font-weight: 300;
+	margin: 0px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	padding-bottom: 22px;
+	margin: 0px;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.banner {
+	background: #CACACA none repeat scroll 0% 0%;
+	height: 611px;
+	margin: 0 auto !important;
+	overflow: hidden;
+}
+
+
+.egslide {
+    background: #1B1F2B none repeat scroll 0% 0%; 
+    width: 100%;
+	height: 100%;     
+	padding: 0;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+}
+.egslide li {
+	opacity: 0.2;
+}
+.egslide li span {
+	background-image: url(../img/5.jpg);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: transparent;
+	background-size: cover;
+	background-position: 50% 50%;
+	z-index: 0;
+}
+
+.navbar-custom {
+	background: #262B37;
+	border: 0;
+}
+.navbar-custom li a {	
+	color: #bdc3c7;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.navbar-custom li a:hover {
+	background: none;
+	color: #fff;
+}
+.navbar-custom .active {
+	background: #1a1d25;
+}
+.navbar-custom button {
+	border: 1px solid #fff;
+}
+.navbar-custom .icon-bar {
+	background-color: #fff;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-nav li {
+	padding: 0 20px;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.bannerText {
+	border: 3px #fff solid;
+	background: rgba(0, 0, 0, 0.2);
+	color: #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 35%;
+	padding: 30px 0 30px;
+	text-align: center;
+	max-width: 960px;
+}
+
+.about {
+	background: #00bdbd;
+	color: #fff;
+	padding: 80px 0;
+	position: relative;
+}
+
+.heading {
+	text-align: center;	
+	padding-bottom: 40px;
+}
+.heading h2 {
+	padding-bottom: 0px;
+	font-size: 36px;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+/*ADDITONAL*/
+.nomg {
+	margin: 0;
+}
+
+.nopadd {
+	padding: 0 !important;
+}
+
+.nobrs {
+	border-radius: 0;
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
